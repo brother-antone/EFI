@@ -1,0 +1,55 @@
+# === General ===
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === Sigasi Project Files ===
+.project
+.settings/
+.library_mapping.xml
+.sigasi/
+.sigasi_workspace/
+.sigasi_cache/
+.sigasi-db/
+.sigasi-index/
+.sigasi-diagram/
+sigasi-settings.xml
+
+# === Build / Simulation Outputs ===
+*.vcd
+*.wlf
+*.vvp
+*.elf
+*.out
+*.o
+*.obj
+*.exe
+transcript
+vsim.wlf
+work/
+build/
+sim/
+output/
+reports/
+
+# === Vivado/Vitis (if you later link your KR260 work here) ===
+*.xpr
+*.runs/
+*.cache/
+*.ip_user_files/
+*.hw/
+*.sim/
+*.xil/
+*.jou
+*.str
+*.dcp
+*.bit
+*.ltx
